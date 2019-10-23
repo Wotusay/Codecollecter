@@ -7,6 +7,9 @@
 .title {
   font-size: var(--h1Like);
   font-weight: var(--boldWeight);
+  margin: 0 auto;
+  width: max-content;
+  margin-top: 15rem;
 }
 
 .quote {
