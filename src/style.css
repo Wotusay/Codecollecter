@@ -13,3 +13,7 @@ html {
   box-sizing: inherit;
 }
 /* stylelint-enable */
+
+body {
+  background-color: var(--backgroundGradient);
+}
