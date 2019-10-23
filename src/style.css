@@ -1,4 +1,6 @@
 @import './css/reset.css';
+@import './css/vars.css';
+@import './css/quotes.css';
 
 html {
   box-sizing: border-box;

@@ -1,17 +1,3 @@
 :root {
-  --backgroundColor: white;
-  --secondaryColor: #f9d2cb;
-  --accentColor: #a3f4dc;
-  --textColor: #211f1f;
-  --subTextColor: #9c9c9c;
-  --nonActiveText: #564f4f;
-  --activeText: #b7b7b7;
-  --smallSize: 1.2rem;
-  --normalSize: 1.8rem;
-  --mediumSize: 2rem;
-  --titleSize: 2.6rem;
-  --fontWeight: 500;
-  --fontWeightSmall: 300;
-  --spacer: 3rem;
-  --optionSpacer: 1.2rem;
+  --backgroundGradient: linear-gradient(90deg, rgba(6, 190, 182, 1) 0%, rgba(72, 177, 191, 1) 100%);
 }
