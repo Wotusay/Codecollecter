@@ -9,11 +9,14 @@ import './style.css';
 
     const loadQuotes = () => {
         const $quotes = document.querySelector('.quotes');
+        $quotes.innerHTML = '';
         quotes.quotes.forEach(quote => {
-            const $quote = document.createElement(`li`);
-            $quote.classList.add(`quote`);
-            $quote.textContent = quote.quote;
-            $quotes.appendChild($quote);
+            $quotes.innerHTML += 
+            `<div class="quote_wrapper">
+        <li class="quote">${quote.quote}</li>
+        <a class='quote-button' href="">more info
+        </a>
+      </div>`;
         });
     }
 
