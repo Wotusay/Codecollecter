@@ -22,6 +22,7 @@
 .quote {
   font-size: var(--quoteSize);
   grid-column: 1;
+  width: 70%;
 }
 
 .quote-button {
