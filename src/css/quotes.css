@@ -12,8 +12,15 @@
   margin-top: 15rem;
 }
 
+.quotes {
+  width: 80rem;
+  margin: 0 auto;
+  margin-top: 4rem;
+}
+
 .quote {
   font-size: var(--quoteSize);
+  grid-column: 1;
 }
 
 .quote-button {
@@ -27,4 +34,11 @@
   color: white;
   text-align: center;
   padding-top: .5rem;
+  grid-column: 2;
+}
+
+.quote_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
