@@ -1,4 +1,6 @@
 @import './css/reset.css';
+@import './css/vars.css';
+@import './css/quotes.css';
 
 html {
   box-sizing: border-box;
@@ -11,3 +13,9 @@ html {
   box-sizing: inherit;
 }
 /* stylelint-enable */
+
+body {
+  background-color: var(--backgroundColor);
+  font-family: Roboto, sans-serif;
+  font-weight: 300;
+}
