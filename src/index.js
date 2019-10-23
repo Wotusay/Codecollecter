@@ -11,6 +11,7 @@ import './style.css';
         const $quotes = document.querySelector('.quotes');
         quotes.quotes.forEach(quote => {
             const $quote = document.createElement(`li`);
+            $quote.classList.add(`quote`);
             $quote.textContent = quote.quote;
             $quotes.appendChild($quote);
         });
