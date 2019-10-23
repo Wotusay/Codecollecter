@@ -15,5 +15,5 @@ html {
 /* stylelint-enable */
 
 body {
-  background-color: var(--backgroundGradient);
+  background-color: var(--backgroundColor);
 }
