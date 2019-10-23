@@ -1,1 +1,10 @@
 @import './vars.css';
+
+.title {
+  font-size: var(--h1Like);
+  font-weight: var(--boldWeight);
+}
+
+.quote {
+  font-size: var(--quoteSize);
+}
